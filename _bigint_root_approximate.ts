@@ -8,7 +8,7 @@ export interface BigIntRootApproximateResult {
  * @param {bigint} [index=2n] Index.
  * @returns {BigIntRootApproximateResult} Root, approximate.
  */
-export function bigintRootApproximate(radicand: bigint, index = 2n): BigIntRootApproximateResult {
+export function bigintRootApproximate(radicand: bigint, index: bigint = 2n): BigIntRootApproximateResult {
 	if (!(radicand >= 0n)) {
 		throw new RangeError(`\`${radicand}\` (parameter \`radicand\`) is not a bigint which is positive!`);
 	}

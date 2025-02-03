@@ -52,7 +52,7 @@ export function isNumericPrime(item: bigint | number): boolean {
 		return false;
 	}
 	const divisorMaximum: bigint = bigintRootApproximate(itemBigInteger).ceil;
-	for (let divisor = 3n; divisor <= divisorMaximum; divisor += 2n) {
+	for (let divisor: bigint = 3n; divisor <= divisorMaximum; divisor += 2n) {
 		if (itemBigInteger % divisor === 0n) {
 			return false;
 		}
