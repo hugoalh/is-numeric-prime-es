@@ -1,4 +1,4 @@
-import { assertEquals } from "STD/assert/equals";
+import { deepStrictEqual } from "node:assert";
 import { randomInt } from "node:crypto";
 import { bigintRootApproximate } from "./_bigint_root_approximate.ts";
 Deno.test("Main", { permissions: "none" }, async (t) => {
@@ -14,8 +14,8 @@ Deno.test("Main", { permissions: "none" }, async (t) => {
 		await t.step(`Radicand: ${radicandNumber}; Index: ${indexNumber}`, () => {
 			const rootNumber = Math.pow(radicandNumber, 1 / indexNumber);
 			const rootBigInt = bigintRootApproximate(BigInt(radicandNumber), BigInt(indexNumber));
-			assertEquals(BigInt(Math.ceil(rootNumber)), rootBigInt.ceil);
-			assertEquals(BigInt(Math.floor(rootNumber)), rootBigInt.floor);
+			deepStrictEqual(BigInt(Math.ceil(rootNumber)), rootBigInt.ceil);
+			deepStrictEqual(BigInt(Math.floor(rootNumber)), rootBigInt.floor);
 		});
 	}
 });

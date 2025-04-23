@@ -6,7 +6,7 @@
 [![JSR: @hugoalh/is-numeric-prime](https://img.shields.io/jsr/v/@hugoalh/is-numeric-prime?label=@hugoalh/is-numeric-prime&labelColor=F7DF1E&logo=jsr&logoColor=000000&style=flat "JSR: @hugoalh/is-numeric-prime")](https://jsr.io/@hugoalh/is-numeric-prime)
 [![NPM: @hugoalh/is-numeric-prime](https://img.shields.io/npm/v/@hugoalh/is-numeric-prime?label=@hugoalh/is-numeric-prime&labelColor=CB3837&logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/is-numeric-prime")](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
 
-An ES (JavaScript & TypeScript) module to determine whether the numeric is prime.
+An ECMAScript (JavaScript & TypeScript) module to determine whether the numeric is prime.
 
 ## 🔰 Begin
 
