@@ -25,35 +25,35 @@ import { bigintRootApproximate } from "./_bigint_root_approximate.ts";
  * ```
  */
 export function isNumericPrime(item: bigint | number): boolean {
-	let itemBigInteger: bigint;
+	let itemBigInt: bigint;
 	if (typeof item === "bigint") {
-		itemBigInteger = item;
+		itemBigInt = item;
 	} else {
 		if (!Number.isInteger(item)) {
 			return false;
 		}
-		itemBigInteger = BigInt(item);
+		itemBigInt = BigInt(item);
 	}
 	if (
-		itemBigInteger === 2n ||
-		itemBigInteger === 3n ||
-		itemBigInteger === 5n ||
-		itemBigInteger === 7n
+		itemBigInt === 2n ||
+		itemBigInt === 3n ||
+		itemBigInt === 5n ||
+		itemBigInt === 7n
 	) {
 		return true;
 	}
 	if (
-		itemBigInteger < 2n ||
-		itemBigInteger % 2n === 0n ||
-		itemBigInteger % 3n === 0n ||
-		itemBigInteger % 5n === 0n ||
-		itemBigInteger % 7n === 0n
+		itemBigInt < 2n ||
+		itemBigInt % 2n === 0n ||
+		itemBigInt % 3n === 0n ||
+		itemBigInt % 5n === 0n ||
+		itemBigInt % 7n === 0n
 	) {
 		return false;
 	}
-	const divisorMaximum: bigint = bigintRootApproximate(itemBigInteger).ceil;
+	const divisorMaximum: bigint = bigintRootApproximate(itemBigInt).ceil;
 	for (let divisor: bigint = 3n; divisor <= divisorMaximum; divisor += 2n) {
-		if (itemBigInteger % divisor === 0n) {
+		if (itemBigInt % divisor === 0n) {
 			return false;
 		}
 	}
