@@ -5,22 +5,22 @@ const primesPush: bigint[] = [];
  * Determine whether the numeric is prime.
  * @param {bigint | number} item Item that need to determine.
  * @returns {boolean} Determine result.
- * @example 1
+ * @example
  * ```ts
  * isNumericPrime(9876);
  * //=> false
  * ```
- * @example 2
+ * @example
  * ```ts
  * isNumericPrime(8n);
  * //=> false
  * ```
- * @example 3
+ * @example
  * ```ts
  * isNumericPrime(17);
  * //=> true
  * ```
- * @example 4
+ * @example
  * ```ts
  * isNumericPrime(23n);
  * //=> true
