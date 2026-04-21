@@ -2,9 +2,10 @@
 
 [**⚖️** MIT](./LICENSE.md)
 
-[![GitHub: hugoalh/is-numeric-prime-es](https://img.shields.io/github/v/release/hugoalh/is-numeric-prime-es?label=hugoalh/is-numeric-prime-es&labelColor=181717&logo=github&logoColor=ffffff&sort=semver&style=flat "GitHub: hugoalh/is-numeric-prime-es")](https://github.com/hugoalh/is-numeric-prime-es)
-[![JSR: @hugoalh/is-numeric-prime](https://img.shields.io/jsr/v/@hugoalh/is-numeric-prime?label=@hugoalh/is-numeric-prime&labelColor=F7DF1E&logo=jsr&logoColor=000000&style=flat "JSR: @hugoalh/is-numeric-prime")](https://jsr.io/@hugoalh/is-numeric-prime)
-[![NPM: @hugoalh/is-numeric-prime](https://img.shields.io/npm/v/@hugoalh/is-numeric-prime?label=@hugoalh/is-numeric-prime&labelColor=CB3837&logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/is-numeric-prime")](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
+🔗
+[GitHub](https://github.com/hugoalh/is-numeric-prime-es)
+[JSR](https://jsr.io/@hugoalh/is-numeric-prime)
+[NPM](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
 
 An ECMAScript module to determine whether the numeric is prime.
 
