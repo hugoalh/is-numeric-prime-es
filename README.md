@@ -4,8 +4,8 @@
 
 🔗
 [GitHub](https://github.com/hugoalh/is-numeric-prime-es)
-[JSR](https://jsr.io/@hugoalh/is-numeric-prime)
-[NPM](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
+● [JSR](https://jsr.io/@hugoalh/is-numeric-prime)
+● [NPM](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
 
 An ECMAScript module to determine whether the numeric is prime.
 
