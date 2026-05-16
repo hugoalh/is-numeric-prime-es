@@ -28,3 +28,4 @@ export function bigintSqrt(value: bigint): BigIntMathApproximateResult {
 		floor: x
 	};
 }
+export default bigintSqrt;
