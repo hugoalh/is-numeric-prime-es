@@ -7,6 +7,7 @@ authors:
   - name: "HUGOALH"
     alias: "hugoalh"
 repository-code: "https://github.com/hugoalh/is-numeric-prime-es"
+abstract: "An ECMAScript module to determine whether the numeric is prime."
 keywords:
   - "ecmascript"
   - "es"

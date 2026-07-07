@@ -3,7 +3,8 @@
 [**⚖️** MIT](./LICENSE.md)
 
 🔗
-[GitHub](https://github.com/hugoalh/is-numeric-prime-es)
+[DistBoard @hugoalh](https://hugoalh.github.io/distboard/is_numeric_prime_ecmascript)
+● [GitHub](https://github.com/hugoalh/is-numeric-prime-es)
 ● [JSR](https://jsr.io/@hugoalh/is-numeric-prime)
 ● [NPM](https://www.npmjs.com/package/@hugoalh/is-numeric-prime)
 
